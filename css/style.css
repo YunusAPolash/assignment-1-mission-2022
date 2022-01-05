@@ -12,7 +12,7 @@ p {
 }
 /* Some of Default and Reuseable Css below  */
 .container {
-  width: 85%;
+  width: 80%;
   margin: 0 auto;
 }
 .default_btn_wrap {
@@ -22,17 +22,25 @@ p {
   font-family: "Poppins", sans-serif;
   color: #fff;
   text-decoration: none;
+  display: inline-block;
   padding: 10px 35px;
   background-color: #ff5959;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-size: 16px;
 }
 .text_important {
   color: #ffad5a;
 }
 .width_50 {
   width: 50%;
+}
+.width_40 {
+  width: 40%;
+}
+.width_60 {
+  width: 60%;
 }
 .margin_bottom_30 {
   margin-bottom: 30px;
@@ -50,6 +58,7 @@ p {
 .font_18 {
   font-size: 18px;
 }
+
 /* Hero Section Css Started */
 .hero_section {
   padding: 100px 0px;
@@ -135,3 +144,35 @@ p {
 }
 
 /* ### Mission Section Css End*/
+
+/* Re-use section*/
+
+.reuseable_sec {
+  padding: 100px 0px;
+}
+#devlopSection {
+  background-image: url(../images/background_1.png),
+    url(../images/background_dotted.png);
+  background-repeat: no-repeat;
+  background-position: 5% 40%, -20px 400px;
+}
+.reuseable_wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.reuse_sec_img_wrap img {
+  width: 85%;
+  height: auto;
+}
+
+.reuse_cont_wrap {
+  text-align: left;
+}
+.reuse_cont_wrap h2 {
+  font-size: 35px;
+  color: #000;
+  font-weight: 700;
+  margin: 0;
+}
+/* ### Re-use section*/
