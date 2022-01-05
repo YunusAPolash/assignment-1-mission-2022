@@ -33,6 +33,9 @@ p {
 .text_important {
   color: #ffad5a;
 }
+.text_secondary {
+  color: #ff5959;
+}
 .width_50 {
   width: 50%;
 }
@@ -117,7 +120,6 @@ p {
 
 .mission_item {
   padding: 40px;
-  background: red;
   border-radius: 25px;
 }
 .mission_item .item_img img {
@@ -185,3 +187,27 @@ p {
   background-position: 95% 95%;
 }
 /* ### Re-use section*/
+
+/* Footer CSS Started */
+footer {
+  background-color: #000;
+}
+.footer_wrap {
+  padding: 60px 0px;
+  text-align: center;
+}
+#foo_Logo_text {
+  font-family: "Lobster", cursive;
+  color: #fff;
+  margin: 0;
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.footer_wrap p {
+  font-family: "Manrope", sans-serif;
+  color: #fff;
+}
+
+/* ### Footer CSS END */
