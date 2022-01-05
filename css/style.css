@@ -6,6 +6,69 @@ body {
   box-sizing: border-box;
 }
 
-.font_seter {
-  font-family: "Yeseva One", cursive;
+/* Some of Default and Reuseable Css below  */
+.container {
+  width: 85%;
+  margin: 0 auto;
 }
+.default_btn_wrap {
+  text-align: left;
+}
+.default_btn_wrap a.main_btn {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 35px;
+  background-color: #ff5959;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.text_important {
+  color: #ffad5a;
+}
+.width_50 {
+  width: 50%;
+}
+.margin_bottom_30 {
+  margin-bottom: 30px;
+}
+/* Hero Section Css Started */
+.hero_section {
+  padding: 100px 0px;
+}
+
+.hero_section .hero_main_wraper {
+  display: flex;
+  align-items: center;
+}
+.hero_left .hero_main_title {
+  position: relative;
+}
+.hero_left .hero_main_title .border_left {
+  position: absolute;
+  width: 6px;
+  top: 10%;
+  height: 80%;
+  background: #ff5959;
+  display: inline-block;
+  border-radius: 50px;
+}
+.hero_left .hero_main_title h1 {
+  font-family: "Yeseva One", cursive;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 15px;
+  padding-left: 20px;
+}
+/* Hero Right */
+.hero_right .hero_img_wrap {
+  text-align: center;
+}
+.hero_right .hero_img_wrap .hero_img {
+  width: 75%;
+}
+
+/* ### Hero Right */
