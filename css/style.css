@@ -148,7 +148,7 @@ p {
 /* Re-use section*/
 
 .reuseable_sec {
-  padding: 100px 0px;
+  padding: 70px 0px;
 }
 #devlopSection {
   background-image: url(../images/background_1.png),
@@ -174,5 +174,14 @@ p {
   color: #000;
   font-weight: 700;
   margin: 0;
+}
+#alignedRight {
+  text-align: right;
+}
+
+#communityPart {
+  background-image: url(../images/background_1.png);
+  background-repeat: no-repeat;
+  background-position: 95% 95%;
 }
 /* ### Re-use section*/
